@@ -1,4 +1,4 @@
-4-worker and 1 manager
+4-worker and 1 manager----------------------------------
 install docker in all
 manager----------------------------------------------
 docker swarm init
