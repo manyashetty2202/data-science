@@ -50,7 +50,7 @@ services:
   web:
     # Pull the Image from Repository.
     # replace shrush0711/repo:tag with your name and image details
-    image: manyashetty2202/web_app:1.0
+    image: manyashetty/web_app:1.0
     # Command used to deploy the Service
     deploy:
       # Run 5 instances of that image as a service called web
@@ -124,7 +124,7 @@ cat requirements.txt
 
 ls
 docker build -t web_app .
-docker tag web_app:latest shrush0711/web_app:1.0
+docker tag web_app:latest manyashetty/web_app:1.0
 
 docker login 
 enter id/password of dockerhub
